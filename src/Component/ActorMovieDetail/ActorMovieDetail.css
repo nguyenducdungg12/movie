@@ -1,0 +1,30 @@
+.card-movie-img{
+    min-height:350px;
+}
+.card-movie-img2{
+    width: 100%;
+}
+.film--img-bd{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.film-content-2{
+    border-top:2px solid #ff55a5;
+    background-color: #28282d;
+    padding:50px 0;
+}
+.film-title{
+    font-size: 36px;
+    color: white;
+    font-weight: 200;
+    margin: 10px 0 50px;
+}
+.film-content-2__text{
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(182, 182, 182);
+    line-height: 26px;
+}
+.film-content-2__text strong{
+    font-weight: 800;
+}

@@ -1,0 +1,137 @@
+.slide-view{
+    width:100%;
+    overflow: hidden;
+}
+
+.slide-wrap{
+    display:flex;
+    margin:0 -20px;
+    transition:all .5s;
+}
+
+.slide-item{
+    padding:0 20px;
+    min-width: 20%;
+}
+
+.slide-item:hover .card-movie-icon{
+    opacity: 1;
+}
+.slide-item:hover .card-movie{
+    box-shadow: 0 0 20px 0 rgba(255,88,96,.5);
+}
+.slide-item:hover .card-movie:after{
+    opacity: .3;
+}
+.item{
+    padding:0 20px;
+}
+.item:hover .card-movie-icon{
+    opacity: 1;
+}
+.item:hover .card-movie{
+    box-shadow: 0 0 20px 0 rgba(255,88,96,.5);
+}
+.item:hover .card-movie:after{
+    opacity: .3;
+}
+.card-movie:after{
+    position: absolute;
+    content:'';
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: linear-gradient(90deg,#ff55a5 0,#ff5860 100%);
+    opacity: 0;
+}
+.card-movie-img{
+    width: 100%;
+    min-height:285px;
+    border-radius: 5px;
+}
+.card-movie{
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.card-movie-icon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    background:transparent;
+    border-radius: 100%;
+    z-index: 2;
+    height: 80px;
+    border:2px solid #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+    opacity: 0;
+    background-image: url();
+}
+.card-movie-icon i{
+    font-size: 30px;
+    color:#fff;
+}
+.slide-movie-title{
+    font-size: 22px;
+    font-weight: 400;
+    color:#fff;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;   
+    margin:8px 0;
+}
+.slide-movie-title-engl{
+    color:#a7a7a7;
+    font-weight: 400;
+}
+.header-slide-btn{
+    position: absolute;
+    color:#dfdddd;
+    font-size: 25px;
+    top:-65px;
+    right:52px;
+    cursor: pointer;
+}
+.header-slide-left{
+    right:100px;
+}
+.header-slide-title{
+    font-size: 35px;
+    color:#dadada;
+    margin:0 0 40px;
+    font-weight: 300;
+}
+.header-slide{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-slide:after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background:rgba(0, 0, 0, .6);
+    z-index:1;
+}
+.header-slide-wrap{
+    padding:60px 0;
+    background:rgba(43,43,49,.85);
+    position: relative;
+    z-index: 2;
+    
+}
+
+.btn--disable{
+    color:#727272;
+}

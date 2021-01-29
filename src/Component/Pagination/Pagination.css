@@ -1,0 +1,26 @@
+.pagination{
+    text-align:center;
+    padding:40px 0;
+    display:inline-flex;
+    align-items: center;
+}
+
+.pagination__btn{
+    font-size: 16px;
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+    padding:14px 16px;
+    transition: all .5s;
+}
+
+.pagination__btn:not(.pagination__btn--active):hover{
+    background: #ff6a00;
+    color:rgb(224, 217, 217);
+}
+.pagination__btn--active{
+    background-image: linear-gradient(90deg,#ee0979 0,#ff6a00 100%);
+    color:white;
+}

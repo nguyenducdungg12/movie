@@ -1,0 +1,30 @@
+.movie-new-update{
+    background:#28282d;
+    padding:50px 0;
+}
+.movie-new-update-item-des-title{
+    color:#fff;
+    font-size: 18px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin:15px 0 0;
+    overflow: hidden;
+    display: -webkit-box; 
+}
+.movie-new-update-item-des-title-engl{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin:5px 0 15px;
+    overflow: hidden;
+    display: -webkit-box; 
+    color:#939393;
+    font-size: 15px;
+}
+.movie-new-update-btn{
+    padding:50px 0 15px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

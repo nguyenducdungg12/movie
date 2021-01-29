@@ -1,0 +1,15 @@
+.location a{
+    color: rgba(255,255,255,.5);
+    font-weight: 200;
+    text-decoration: none;
+    transition: all .3s;
+}
+.location i {
+    color: rgb(151, 151, 151);
+    font-size: 14px;
+    margin: 0 16px;
+}
+.location span{
+    color: rgba(255,255,255,.5);
+    font-weight: 200;
+}

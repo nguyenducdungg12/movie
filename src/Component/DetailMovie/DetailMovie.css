@@ -1,0 +1,192 @@
+.details{
+    background-color: #2b2b31;
+}
+.background{
+    opacity: 0.85;
+    position: relative;
+    z-index: 1;
+}
+.background:after{
+    position: absolute;
+    content:"";
+    bottom: 0;
+    left:0;
+    right:0;
+    height:300px;
+    background: linear-gradient(360deg, #2b2b31, rgba(0,0,0,0.1) 100%);
+    z-index:2;
+}
+.background-detail{
+    background-color: rgba(0,0, 0, 0.7);
+    padding: 60px 0 100px;
+    position: relative;
+    z-index: 3;
+}
+.name-film{
+    font-size: 36px;
+    color: white;
+    margin: 36px 0;
+    font-weight: 200;
+}
+.box-info{
+    background-color: rgba(0,0, 0, 0.7);
+    border-radius: 10px;
+    position: relative;
+}
+.box-info::after{
+    content: "IMDb 7.8";
+    position: absolute;
+    background-image: linear-gradient(to bottom,#b99100 0,#f5c518 51%,#b99100 100%);
+    top: 12px;
+    right: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 2px 4px;
+}
+.box-info__img{
+    padding: 0;
+    position: relative;
+}
+.box-info__img i{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left:0;
+    bottom:0;
+    color: #fff;
+    font-size: 48px;
+    cursor: pointer;
+    padding: 164px 102px;
+    border-radius: 10px;
+    
+}
+.box-info__img i:hover{
+    background-color: rgba(0,0,0,.4);
+}
+.box-info__img:hover .box-info__img i{
+    display: block;
+}
+.box-info__img img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.box-info__content{
+    padding: 0;
+}
+.film-details{
+    padding-right: 30px;
+}
+.film-meta li{
+    padding: 10px;
+    border-bottom: 1px solid  #ff5860;
+    display:flex;
+    word-break: keep-all;
+}
+.film-meta li span{
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+    margin-right: 20px;
+}
+.css-1{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ff5860;
+    opacity: .8;
+    display: inline-block;
+}
+.rate{
+    margin: 0 8px;
+}
+.rate i{
+    margin: 0 2px;
+}
+.rate-act{
+    font-size: 14px;
+    cursor: pointer;
+}
+.rate-act__color{
+    color: yellow;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.not-act{
+    cursor: default !important;
+}
+.watch-eps a{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(90deg,#ee0979 0,#ff6a00 100%);
+    box-shadow: 0 0 20px 0 rgba(255,88,96,.5);
+    opacity: .85;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-right: 36px;
+}
+.select-1:hover{
+    background-image: linear-gradient(90deg,#ff6a00 0,#ee0979 100%);
+}
+
+.select-1 i{
+    font-size: 10px;
+}
+.css-2{
+    background-color: rgba(0,0,0,0.2);
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.love{
+    padding: 6px 0;
+    margin-bottom: 8px;
+}
+.love button{
+    background-color: rgb(32, 84, 241);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 12x;
+    padding: 4px 12px;
+    font-weight:700;
+}
+.text-1{
+    font-size: 12px;
+    color: white;
+}
+.text-2{
+    font-size: 10px;
+    color: rgb(163, 163, 163);
+}
+.share {
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.share span{
+    color: rgba(255,255,255,.5);
+}
+.share i{
+    margin: 0 8px;
+    font-size: 25px;
+}
+.facebook{
+    color : rgb(32, 84, 241);
+}
+.insta{
+    color: sandybrown;
+}
+.twitter{
+    color: rgb(64, 217, 255);
+}
+.youtube{
+    color: red;
+}

@@ -1,0 +1,11 @@
+export const getDataFilmHeader = 'getDataFilmHeader';
+export const getDataFilmCategory = 'getDataFilmCategory';
+export const isLoadingRequest = 'isLoadingRequest';
+export const isFinishRequest = 'isFinishRequest';
+export const getDataFilmNews = 'getDataFilmNews';
+export const getDataDetailFilm = 'getDataDetailFilm';
+export const isOpenModal = 'isOpenModal'; 
+export const onCloseModal = 'onCloseModal';
+export const getDataActor = 'getDataActor';
+export const getDataDetailActor = 'getDataDetailActor';
+export const getDataFilmTrending = 'getDataFilmTrending';
